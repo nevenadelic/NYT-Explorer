@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./css/nyte.css">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/babel" src="./js/nyte.js"></script>
+    <title>NYT Explorer</title>
+</head>
+
+<body>
+    <h1>NYT Explorer</h1>
+    <h3>Explore NY Times archive. Just pick a year and a month.</h3>
+	<div class='search'>
+	  <input type='number' placeholder='year as YYYY' id='year' min="1851"> <input type='number' placeholder='month as M' id='month' min="0" max="12"><button role="button" class="button" onclick= "find()">Find</button>
+	</div>
+    <div id="root">
+    </div>
+</body>
+
+</html>

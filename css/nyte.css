@@ -1,0 +1,77 @@
+input[type=number], select {
+    width: 20%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.previews {
+    width: 100%;
+background-color: #eee;
+}
+
+.search {
+margin-bottom: 20px;}
+
+.page {
+    display: flex;
+margin 20px;
+right:30px;
+}
+
+.master {
+    float: left;
+    width: 80%;
+}
+
+.details {
+    float: left;
+    width: 20%;
+    background-color: #DCDCDC;
+    color: #2C2009;
+    font-weight: bold;
+word-wrap: break-word;
+padding: 30px;
+
+}
+
+.card{
+vertical-align:top;
+display: inline-block;
+width: 170px;
+height: 240px;
+margin: 10px;
+box-shadow: 3px 3px 2px #ddd;
+background-color: white;
+cursor: pointer;
+text-align: center;
+color: #262626;
+font-size: 12x;
+padding:10px;
+}
+
+ul{
+list-style-type:square;
+}
+
+.picture{
+height: 170px;
+width: 170px;
+}
